@@ -1,4 +1,3 @@
-# Automa-o-de-Sistemas-e-Processos-com-Python
 # Automação de Sistemas e Processos com Python
 # Jupyter foi usado 
 
@@ -38,7 +37,7 @@ time.sleep(5) # esperar o download acabar
 # Passo 4: Importar a base de vendas pro Python
 import pandas as pd
 
-tabela = pd.read_excel(r"C:\Users\joaol\Downloads\Vendas - Dez.xlsx")
+tabela = pd.read_excel(r"D:\MATERIAS COMPLEMENTARES, CURSOS E CERTIFICADOS\CURSOS\HASHTAG TREINAMENTOS\HASHTAG PROGAMAÇÃO\4. PYTHON\INTENSIVÕES\INTENSIVÃO DE PYTHON JANEIRO DE 2023\AULA 1\EXPORTAR\Vendas - Dez.xlsx")
 display(tabela)
 
 # Passo 5: Calcular os indicadores da empresa
@@ -80,7 +79,7 @@ Quantidade de produtos vendidos: {quantidade:,}
 
 Qualquer dúvida estou à disposição.
 Att.,
-Lira do Python
+Hudson Tamião
 """
 
 # formatação dos números (moeda, dinheiro)
@@ -90,6 +89,9 @@ pyautogui.hotkey("ctrl", "v")
 
 # enviar o e-mail
 pyautogui.hotkey("ctrl", "enter")
+
+#Use esse código para descobrir qual a posição de um item que queira clicar
+#Lembre-se: a posição na sua tela é diferente da posição na minha tela
 
 time.sleep(5)
 pyautogui.position()
